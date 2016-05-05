@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Core training</title>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="js/controller.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-app="coreApp" ng-controller="BooksListCtrl">
+
+<div class="content">
+	<button ng-click="showAll = true">All</button>
+	<button ng-click="showAll = false">Favorite</button>
+	
+	<h1 class="error" ng-show="errorData">Data loading failed!</h1>
+	<ul class="books" ng-if="books">
+	      <div class="item">Name</div>
+	      <div class="item">ISBN</div>
+	      <div class="item">Fav.</div>
+	  <li ng-repeat="book in books" ng-if="book.fav || showAll">
+	      <div class="item">{{book.name}}</div>
+	      <div class="item">{{book.isbn}}</div>
+	      <div class="item"><input type="checkbox" ng-model="book.fav" disabled=""></div>
+	  </li>
+	</ul>
+</div>
+
+</body>
+</html>

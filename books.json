@@ -1,0 +1,52 @@
+[
+  {
+    "name": "mollit ex id duis non",
+    "isbn": 606537,
+    "fav": false
+  },
+  {
+    "name": "incididunt aliqua ut ut",
+    "isbn": 556924,
+    "fav": false
+  },
+  {
+    "name": "officia sit mollit",
+    "isbn": 882779,
+    "fav": false
+  },
+  {
+    "name": "laboris ut amet cillum",
+    "isbn": 69424,
+    "fav": true
+  },
+  {
+    "name": "pariatur nostrud",
+    "isbn": 992406,
+    "fav": false
+  },
+  {
+    "name": "mollit deserunt quis occaecat sunt ad",
+    "isbn": 982545,
+    "fav": true
+  },
+  {
+    "name": "non excepteur aliqua",
+    "isbn": 311232,
+    "fav": false
+  },
+  {
+    "name": "duis enim irure quis",
+    "isbn": 708912,
+    "fav": false
+  },
+  {
+    "name": "elit occaecat Lorem",
+    "isbn": 735599,
+    "fav": true
+  },
+  {
+    "name": "pariatur ad in duis aliqua",
+    "isbn": 748469,
+    "fav": true
+  }
+]

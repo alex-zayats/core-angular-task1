@@ -1,0 +1,20 @@
+html{
+    font-size: 18px;
+}
+.item{
+	float: left;
+	&:nth-child(1n){
+		width: 60%;
+	}
+	&:nth-child(2n){
+		width: 30%;
+	}
+	&:nth-child(3n){
+		width: 10%;
+	}
+}
+ul.books{
+	li{
+		list-style: none;
+	}
+}

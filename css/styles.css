@@ -1,0 +1,14 @@
+html {
+  font-size: 18px; }
+
+.item {
+  float: left; }
+  .item:nth-child(1n) {
+    width: 60%; }
+  .item:nth-child(2n) {
+    width: 30%; }
+  .item:nth-child(3n) {
+    width: 10%; }
+
+ul.books li {
+  list-style: none; }
